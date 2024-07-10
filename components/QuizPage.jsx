@@ -74,8 +74,8 @@ export default function QuizPage() {
 
     return (
         <main className="quiz--container">
-            <img className="quiz--blue-blob" src="/blue-blob.svg" />
-            <img className="quiz--yellow-blob" src="/yellow-blob.svg" />
+            <img className="quiz--blue-blob" src="public/blue-blob.svg" />
+            <img className="quiz--yellow-blob" src="public/yellow-blob.svg" />
 
             {errorMessage && (
                 <div className="quiz--information-text-container">

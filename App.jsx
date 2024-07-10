@@ -5,7 +5,7 @@ import QuizPage from "./components/QuizPage"
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/quiz-app-react">
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/quiz" element={<QuizPage />} />
